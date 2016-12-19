@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.itzs.testcustomlayoutmanager.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llayout_internal_data_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hs_white"
+        android:orientation="horizontal"
+        android:weightSum="2.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"
+            android:layout_weight="2.0">
+
+            <TextView
+                android:id="@+id/tv_internal_data_filter_classify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableRight="@drawable/checkbox_open_close"
+                android:gravity="center_vertical"
+                android:text="分类"
+                android:textColor="@color/color_black_green1"
+                android:textSize="@dimen/sp_18" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

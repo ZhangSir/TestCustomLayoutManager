@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_pop_course_classify_label_item"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_corner15_blue_selector"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="移动通信"
+        android:textColor="@color/color_gray1_white_selector"
+        android:textSize="@dimen/sp_16" />
+
+
+</LinearLayout>

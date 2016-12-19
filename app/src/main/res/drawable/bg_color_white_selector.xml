@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/hs_gray5"
+                android:endColor="@color/hs_gray5"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="0dp" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/hs_gray5"
+                android:endColor="@color/hs_gray5"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="0dp" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false" >
+        <shape>
+            <gradient
+                android:startColor="@color/hs_gray5"
+                android:endColor="@color/hs_gray5"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="0dp" />
+        </shape>
+    </item>
+    
+    <item>       
+        <shape>
+            <gradient
+                android:startColor="@color/hs_white"
+                android:endColor="@color/hs_white"
+                android:angle="270" />
+            <stroke
+                android:width="0px"
+                android:color="#d2d2d2" />
+            <corners
+                android:radius="0dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestCustomLayoutManager</string>
+
+    <string name="label_all">全部</string>
+    <string name="label_cancel">取消</string>
+    <string name="label_confirm">确定</string>
+</resources>

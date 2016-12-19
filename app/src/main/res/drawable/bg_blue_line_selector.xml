@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_bg"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_selected="true">
+        <layer-list>
+            <!-- 背景色 -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/colorPrimary"/>
+                </shape>
+            </item>
+
+            <!-- 前景色 -->
+            <item android:left="@dimen/dp_2">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_bg"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/common_bg"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_enabled="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hs_gray6"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- 可用状态（默认状态） -->
+    <item android:state_enabled="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hs_white"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

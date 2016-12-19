@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="hs_red0">#ff7f7f</color>
+    <color name="hs_blue0">#9cb5dd</color>
+    <color name="hs_green0">@color/colorPrimary</color>
+    <color name="hs_green1">@color/colorPrimary</color>
+    <color name="hs_green2">@color/colorPrimaryDark</color>
+    <color name="hs_blue1">#6992d4</color>
+    <color name="hs_blue2">#5980c1</color>
+    <color name="hs_blue3">#45b7d1</color>
+    <color name="hs_blue4">#3BA0ED</color>
+    <color name="hs_red1">#f04e4e</color>
+    <color name="hs_red2">#c94242</color>
+    <color name="hs_red3">#f96767</color>
+    <color name="hs_white">#ffffff</color>
+    <color name="hs_black">#333333</color>
+    <color name="hs_gray1">#666666</color>
+    <color name="hs_gray2">#999999</color>
+    <color name="hs_gray3">#cbcbcb</color>
+    <color name="hs_gray4">#e9e9e9</color>
+    <color name="hs_gray5">#c6c6c6</color>
+    <color name="hs_gray6">#dcdcdc</color>
+    <color name="hs_gray7">#f0f6f6</color>
+    <color name="hs_yellow">#e0c92e</color>
+    <color name="hs_orange">#ff9607</color>
+
+    <color name="transparent_half">#88000000</color>
+    <color name="common_bg">#f4f8f9</color>
+</resources>
