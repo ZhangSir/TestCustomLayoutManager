@@ -131,6 +131,6 @@ getDecoratedMeasuredHeight(view)=view.getMeasuredHeight()
 
 注：有关于该组件在首次非常快速滑动时，可能出现子View位置计算错误的问题（推测应该是滑动过快，而计算并未能实时完成，最终造成位置计算错误），已通过控制滑动速度和fling速度解决；
 ![image1](https://github.com/ZhangSir/TestCustomLayoutManager/blob/master/Screenshot_2016-12-19-16-34-17.png)
-![image2](https://github.com/ZhangSir/TestCustomLayoutManager/blob/master/Screenshot_2016-12-19-16-34-17.png)
+![image2](https://github.com/ZhangSir/TestCustomLayoutManager/blob/master/Screenshot_2016-12-19-16-34-10.png)
 
 
